@@ -64,3 +64,14 @@ users = {
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "Fluffy"
 # 10. Add another person to the users hash
+
+#1
+p users["Jonathan"][:twitter]
+#2
+p users["Erik"][:home_town]
+#3
+p users["Erik"][:lottery_numbers]
+#4
+p users["Avril"][:pets][0][:species]
+#5
+p users["Erik"][:lottery_numbers.min()]
