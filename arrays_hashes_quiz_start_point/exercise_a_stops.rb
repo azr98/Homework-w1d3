@@ -10,3 +10,28 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # 8. How many ways can we return `"Falkirk High"` from the array?
 # 9. Reverse the positions of the stops in the array
 # 10. Print out all the stops using a for loop
+
+#1
+stops.push('Edinburgh Waverly')
+#2
+stops.unshift('Glasgow Queen St')
+#3
+stops.insert(3,'Polmont')
+#4
+p stops.index("Linlithgow")
+#5
+stops.delete("Livingston")
+#6
+stops.delete_at(2)
+#7
+p stops.count()
+#8
+p stops[3]
+p stops[-4]
+#9
+p stops.reverse()
+#10
+for stop in stops
+  p stop
+end
+p stops
