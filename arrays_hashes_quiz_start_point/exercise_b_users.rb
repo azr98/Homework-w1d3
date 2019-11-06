@@ -74,4 +74,15 @@ p users["Erik"][:lottery_numbers]
 #4
 p users["Avril"][:pets][0][:species]
 #5
-p users["Erik"][:lottery_numbers.min()]
+p users["Erik"][:lottery_numbers].min
+#6
+p users["Avril"][:lottery_numbers].select{|num| num.even?}
+#7
+p users["Erik"][:lottery_numbers].push(7)
+#8
+ users["Erik"][:home_town] = "Edinburgh"
+#9
+users["Erik"][:pets].push({:name => "Fluffy", :species => "dog"})
+#10
+users["Azhar"][:twitter] = "azr98"
+p users["Azhar"][:twitter]
