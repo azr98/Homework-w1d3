@@ -26,8 +26,9 @@ stops.delete_at(2)
 #7
 p stops.count()
 #8
-p stops[3]
-p stops[-4]
+p stops[2]
+p stops[-5]
+p stops.values_at(2).frist()
 #9
 p stops.reverse()
 #10
